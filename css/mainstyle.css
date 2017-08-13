@@ -11,7 +11,7 @@ body {
 .headerpage{
 	height: 100px;
 	margin-bottom: 10px;
-	background-color: white;
+	background-color: #cdd2d8;
 	border-bottom: 1px solid #ccd5e5;
 }
 
@@ -29,6 +29,8 @@ body {
 .imageHead{
 	width: 70px;
 	height: 70px;
+	position: absolute;
+	left: 50%;
 }
 
 .menu{
@@ -62,6 +64,13 @@ a:hover{
 	display: none;
 }
 
+.center-h{
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	line-height: 30px;
+}
+
 /*item menu*/
 
 .itemMenu{
@@ -82,4 +91,44 @@ a:hover{
 .hident{
 	font-size: 15;
 	padding-left: 10px;
+}
+
+/*header line*/
+.contentHeader{
+	width: 95%;
+  	margin: auto;
+  	height: 30px;
+  	/*background-color: #e3ecf9;*/
+}
+
+.line-menu-Header{
+	list-style: none;
+}
+
+.line-menu-Header li{
+	float: right;
+}
+
+.line-menu-Header li a{
+	display: block;
+	position: relative;
+	padding: 5px 10px;
+	line-height: 15px;
+}
+
+.hide-bullets {
+	list-style:none;
+	margin-left: -40px;
+	margin-top:20px;
+}
+
+/**/
+#slider{
+	padding: 0 !important;
+}
+
+
+
+.contentBody{
+	margin-top: 5px;
 }
